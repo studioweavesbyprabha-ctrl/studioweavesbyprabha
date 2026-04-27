@@ -10,9 +10,32 @@ const products = {
       "saree2.png",
       "saree3.png",
       "saree4.png",
-      "saree5.png"
+      "saree5.png",
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png",
+      "5.png",
+      "6.png",
+      "7.png",
+      "8.jpeg",
+      "9.jpeg",
+      "10.jpeg",
+      "11.jpeg",
+      "12.jpeg",
+      "13.jpeg",
+      "14.jpeg",
+      "15.jpeg",
+      "16.jpeg",
+      "17.jpeg",
+      "18.jpeg",
+      "19.jpeg",
+      "20.jpeg",
+      "21.jpeg",
+      "22.jpeg",
+      "23.jpeg"
     ],
-  
+    lehengas: [],
     blouses: [
       "blouse1.jpeg",
       "blouse2.jpeg",
@@ -73,7 +96,33 @@ const products = {
       "toys8.jpeg"
     ]
   };
+  /* ================= HERO BANNERS ================= */
+const banners = [
+    "banner1.jpeg",
+    "banner2.jpeg",
+    "banner3.jpeg",
+    "banner4.jpeg",
+    "banner5.jpeg",
+    "banner6.jpeg"
+  ];
   
+  /* ================= SERVICES GALLERY ================= */
+  const servicesGallery = [
+    { type: "image", src: "1.jpeg" },
+    { type: "image", src: "2.jpeg" },
+    { type: "image", src: "3.jpeg" },
+    { type: "image", src: "4.jpeg" },
+    { type: "image", src: "5.jpeg" },
+    { type: "image", src: "6.jpeg" },
+    { type: "image", src: "7.jpeg" },
+    { type: "image", src: "8.jpeg" },
+    { type: "image", src: "9.jpeg" },
+    { type: "image", src: "10.jpeg" },
+    { type: "image", src: "11.jpeg" },
+    { type: "image", src: "12.jpeg" },
+    { type: "video", src: "stitch1.mp4" },
+    { type: "video", src: "stitch2.mp4" }
+  ];
   /* 🎥 VIDEO SUPPORT */
   const videoList = [
     "1.mp4",

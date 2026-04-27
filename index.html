@@ -6,101 +6,52 @@
 
 <title>Studio Weaves by Prabha</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Playfair+Display:wght@500&family=Great+Vibes&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
 
-<header>
-  <div class="header-container">
-    <img src="images/logo.png" class="logo">
-    <div>
-      <h1>Studio Weaves by Prabha</h1>
-      <p>Where Tradition Meets Elegance</p>
-    </div>
-  </div>
+<!-- HEADER -->
+<header class="header">
+  <img src="images/logo.png" class="logo" alt="logo">
+  <h1>Studio Weaves by Prabha</h1>
+  <p class="tagline">where every thread tells your story</p>
 </header>
 
-<nav>
-  <a href="#products">Products</a>
-  <a href="#videos">Videos</a>
-  <a href="#services">Services</a>
-  <a href="#about">About</a>
-  <a href="#contact">Contact</a>
+<!-- NAV -->
+<nav class="nav">
+  <a href="index.html">Home</a>
+  <a href="products.html">Our Products</a>
+  <a href="services.html">Our Services</a>
+  <a href="about.html">About</a>
+  <a href="contact.html">Contact</a>
 </nav>
 
-<section class="hero">
-  <div class="hero-content">
-    <h2>Elegant Handcrafted Collections</h2>
-    <p>Sarees • Blouses • Kids Wear • Ornaments • More</p>
-  </div>
+<!-- CAROUSEL -->
+<section class="carousel">
+  <div id="carouselTrack" class="carousel-track"></div>
 </section>
 
-<!-- PRODUCTS -->
-<section id="products">
+<!-- PRODUCTS CTA -->
+<section class="cta-section">
   <h2>Our Collections</h2>
-  <div id="productContainer"></div>
+  <p>Discover curated sarees, dresses, and more</p>
+  <a href="products.html" class="btn primary">Explore Our Products</a>
 </section>
 
-<!-- VIDEOS -->
-<section id="videos">
-  <h2>Our Videos</h2>
-
-  <div id="videoContainer" class="video-grid"></div>
-
-  <div class="pagination">
-    <button onclick="prevPage()" id="prevBtn">Previous</button>
-    <span>Page <span id="pageNumber">1</span></span>
-    <button onclick="nextPage()" id="nextBtn">Next</button>
-  </div>
+<!-- SERVICES CTA -->
+<section class="cta-section alt">
+  <h2>Tailoring & Custom Services</h2>
+  <p>Perfect fit, premium finish, crafted just for you</p>
+  <a href="services.html" class="btn secondary">Explore Our Services</a>
 </section>
 
-<!-- SERVICES -->
-<section id="services">
-  <h2>Our Services</h2>
-  <ul>
-    <li>Custom Blouse Stitching</li>
-    <li>Personal Styling Consultation</li>
-    <li>Exclusive Saree Sourcing</li>
-  </ul>
-</section>
-
-<!-- ABOUT -->
-<section id="about">
-  <h2>About Us</h2>
-  <p>
-    Studio Weaves by Prabha brings you curated collections of sarees, dresses,
-    kids wear, blouses, ornaments and more.
-  </p>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <h2>Contact Us</h2>
-  <p>📞 +91 8888823083</p>
-  <p>
-    Instagram: 
-    <a href="https://www.instagram.com/studioweavesbyprabha/" target="_blank">
-      @studioweavesbyprabha
-    </a>
-  </p>
-  <p>
-    📍 Location: 
-    <a href="https://share.google/VgPfzgQFCzj9PUeo4" target="_blank">
-      View on Google Maps
-    </a>
-  </p>
-</section>
-
+<!-- FOOTER -->
 <footer>
   <p>© 2026 Studio Weaves by Prabha</p>
 </footer>
-
-<a class="whatsapp" href="https://wa.me/918888823083" target="_blank">
-  Chat on WhatsApp
-</a>
 
 <script src="js/data.js"></script>
 <script src="js/script.js"></script>
