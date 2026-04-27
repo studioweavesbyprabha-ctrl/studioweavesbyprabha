@@ -2,123 +2,108 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Studio Weaves by Prabha</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  background: #faf7f2;
-}
+<title>Studio Weaves by Prabha</title>
 
-header {
-  background: #6b3e2e;
-  color: white;
-  padding: 15px;
-  text-align: center;
-}
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
 
-nav {
-  background: #d8b4a0;
-  padding: 10px;
-  text-align: center;
-}
-
-nav a {
-  margin: 10px;
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-}
-
-section {
-  padding: 30px;
-}
-
-.products {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.card {
-  background: white;
-  padding: 15px;
-  width: 250px;
-  border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-footer {
-  background: #6b3e2e;
-  color: white;
-  text-align: center;
-  padding: 15px;
-}
-</style>
 </head>
 
 <body>
 
 <header>
-  <h1>Studio Weaves by Prabha</h1>
-  <p>Elegant Handcrafted Wear</p>
+  <div class="header-container">
+    <img src="images/logo.png" class="logo">
+    <div>
+      <h1>Studio Weaves by Prabha</h1>
+      <p>Where Tradition Meets Elegance</p>
+    </div>
+  </div>
 </header>
 
 <nav>
-  <a href="#about">About</a>
   <a href="#products">Products</a>
+  <a href="#videos">Videos</a>
   <a href="#services">Services</a>
+  <a href="#about">About</a>
   <a href="#contact">Contact</a>
 </nav>
 
-<section id="about">
-  <h2>About Us</h2>
-  <p>
-    Studio Weaves by Prabha celebrates handcrafted elegance through curated sarees and custom designs. 
-    We blend tradition with modern aesthetics to create timeless fashion.
-  </p>
-</section>
-
-<section id="products">
-  <h2>Our Products</h2>
-  <div class="products">
-    <div class="card">
-      <h3>Silk Sarees</h3>
-      <p>Premium handcrafted silk collections.</p>
-    </div>
-
-    <div class="card">
-      <h3>Cotton Sarees</h3>
-      <p>Comfort meets elegance in everyday wear.</p>
-    </div>
-
-    <div class="card">
-      <h3>Designer Blouses</h3>
-      <p>Custom stitched and stylish designs.</p>
-    </div>
+<section class="hero">
+  <div class="hero-content">
+    <h2>Elegant Handcrafted Collections</h2>
+    <p>Sarees • Blouses • Kids Wear • Ornaments • More</p>
   </div>
 </section>
 
+<!-- PRODUCTS -->
+<section id="products">
+  <h2>Our Collections</h2>
+  <div id="productContainer"></div>
+</section>
+
+<!-- VIDEOS -->
+<section id="videos">
+  <h2>Our Videos</h2>
+
+  <div id="videoContainer" class="video-grid"></div>
+
+  <div class="pagination">
+    <button onclick="prevPage()" id="prevBtn">Previous</button>
+    <span>Page <span id="pageNumber">1</span></span>
+    <button onclick="nextPage()" id="nextBtn">Next</button>
+  </div>
+</section>
+
+<!-- SERVICES -->
 <section id="services">
   <h2>Our Services</h2>
   <ul>
-    <li>Custom blouse stitching</li>
-    <li>Personal styling consultation</li>
-    <li>Exclusive saree sourcing</li>
+    <li>Custom Blouse Stitching</li>
+    <li>Personal Styling Consultation</li>
+    <li>Exclusive Saree Sourcing</li>
   </ul>
 </section>
 
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    Studio Weaves by Prabha brings you curated collections of sarees, dresses,
+    kids wear, blouses, ornaments and more.
+  </p>
+</section>
+
+<!-- CONTACT -->
 <section id="contact">
   <h2>Contact Us</h2>
-  <p>Email: studioweavesbyprabha@gmail.com</p>
-  <p>Instagram: @studioweavesbyprabha</p>
+  <p>📞 +91 8888823083</p>
+  <p>
+    Instagram: 
+    <a href="https://www.instagram.com/studioweavesbyprabha/" target="_blank">
+      @studioweavesbyprabha
+    </a>
+  </p>
+  <p>
+    📍 Location: 
+    <a href="https://share.google/VgPfzgQFCzj9PUeo4" target="_blank">
+      View on Google Maps
+    </a>
+  </p>
 </section>
 
 <footer>
   <p>© 2026 Studio Weaves by Prabha</p>
 </footer>
+
+<a class="whatsapp" href="https://wa.me/918888823083" target="_blank">
+  Chat on WhatsApp
+</a>
+
+<script src="js/data.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>

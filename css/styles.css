@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #faf7f2;
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(90deg, #5b3e6d, #d36a86);
+  color: white;
+  padding: 15px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.logo {
+  width: 80px;
+}
+
+/* NAV */
+nav {
+  background: white;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid #c39977;
+}
+
+nav a {
+  margin: 15px;
+  text-decoration: none;
+  color: #5b3e6d;
+}
+
+/* HERO */
+.hero {
+  height: 60vh;
+  background: linear-gradient(rgba(91,62,109,0.6), rgba(211,106,134,0.5)),
+              url('../images/banner.jpg') center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+/* SECTIONS */
+section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* PRODUCTS */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.products img {
+  width: 220px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.products img:hover {
+  transform: scale(1.05);
+}
+
+/* VIDEOS */
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.video-card {
+  width: 260px;
+  border-radius: 12px;
+}
+
+/* PAGINATION */
+.pagination button {
+  padding: 8px 15px;
+  margin: 5px;
+  background: #5b3e6d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.pagination button:disabled {
+  background: #ccc;
+}
+
+/* FOOTER */
+footer {
+  background: #5b3e6d;
+  color: white;
+  padding: 15px;
+}
+
+/* WHATSAPP */
+.whatsapp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 50px;
+  text-decoration: none;
+}
