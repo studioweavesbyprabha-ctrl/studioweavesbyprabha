@@ -1,16 +1,5 @@
 const products = {
     sarees: [
-      "image (4).png",
-      "image (5).png",
-      "image (6).png",
-      "image (7).png",
-      "image (8).png",
-      "image (9).png",
-      "saree1.png",
-      "saree2.png",
-      "saree3.png",
-      "saree4.png",
-      "saree5.png",
       "1.png",
       "2.png",
       "3.png",
@@ -18,108 +7,90 @@ const products = {
       "5.png",
       "6.png",
       "7.png",
-      "8.jpeg",
-      "9.jpeg",
-      "10.jpeg",
-      "11.jpeg",
-      "12.jpeg",
-      "13.jpeg",
-      "14.jpeg",
-      "15.jpeg",
-      "16.jpeg",
-      "17.jpeg",
-      "18.jpeg",
-      "19.jpeg",
-      "20.jpeg",
-      "21.jpeg",
-      "22.jpeg",
-      "23.jpeg"
+      "8.png",
+      "9.png",
+      "10.png",
+      "11.png",
+      "12.png",
+      "13.png"
     ],
     lehengas: [],
     blouses: [
-      "blouse1.jpeg",
-      "blouse2.jpeg",
-      "blouse3.jpeg",
-      "blouse4.jpeg",
-      "blouse5.jpeg",
-      "blouse6.jpeg",
-      "blouse7.jpeg"
+      "blouse1.png",
+      "blouse2.png",
+      "blouse3.png",
+      "blouse4.png",
+      "blouse5.png",
+      "blouse6.png"
     ],
   
     dresses: [
-      "dress1.jpeg",
-      "dress2.jpeg",
-      "dress3.jpeg",
-      "dress4.jpeg",
-      "dress5.jpeg",
-      "dress6.jpeg",
-      "dress7.jpeg"
+      "dress1.png",
+      "dress2.png",
+      "dress3.png",
+      "dress4.png",
+      "dress5.png",
+      "dress6.png",
+      "dress7.png"
     ],
   
     kidswear: [
-      "kids1.jpeg",
-      "kids2.jpeg",
-      "kids3.jpeg",
-      "kids4.jpeg",
-      "kids5.jpeg",
-      "kids6.jpeg",
-      "kids7.jpeg",
-      "kids8.jpeg",
-      "kids9.jpeg",
-      "kids10.jpeg",
-      "kids11.jpeg",
-      "kids12.jpeg",
-      "kids13.jpeg",
-      "kids14.jpeg"
+      "kids 1.png",
+      "kids 2.png",
+      "kids 3.png",
+      "kids 4.png",
+      "kids 5.png",
+      "kids 6.png",
+      "kids 7.png",
+      "kids 8.png",
+      "kids 9.png",
+      "kids 10.png",
+      "kids 11.png",
+      "kids 12.png",
+      "kids 13.png",
+      "kids 14.png"
     ],
   
     ornaments: [
-      "1.jpeg",
-      "2.jpeg",
-      "3.jpeg",
-      "4.jpeg",
-      "5.jpeg",
-      "6.jpeg",
-      "7.jpeg",
-      "8.jpeg",
-      "9.jpeg"
+      "1.png",
+      "2.png",
+      "3.png",
+      "4.png",
+      "5.png",
+      "6.png",
+      "7.png",
+      "8.png",
+      "9.png"
     ],
   
     toys: [
-      "toys1.jpeg",
-      "toys2.jpeg",
-      "toys3.jpeg",
-      "toys4.jpeg",
-      "toys5.jpeg",
-      "toys6.jpeg",
-      "toys7.jpeg",
-      "toys8.jpeg"
+      "toys1.png",
+      "toys2.png",
+      "toys3.png",
+      "toys4.png",
+      "toys5.png",
+      "toys6.png",
+      "toys7.png",
+      "toys8.png"
     ]
   };
   /* ================= HERO BANNERS ================= */
-const banners = [
-    "banner1.jpeg",
-    "banner2.jpeg",
-    "banner3.jpeg",
-    "banner4.jpeg",
-    "banner5.jpeg",
-    "banner6.jpeg"
+window.banners = [
+    "banner1.png",
+    "banner2.png",
+    "banner3.png",
+    "banner4.png",
+    "banner5.png",
+    "banner6.png"
   ];
   
   /* ================= SERVICES GALLERY ================= */
-  const servicesGallery = [
-    { type: "image", src: "1.jpeg" },
-    { type: "image", src: "2.jpeg" },
-    { type: "image", src: "3.jpeg" },
-    { type: "image", src: "4.jpeg" },
-    { type: "image", src: "5.jpeg" },
-    { type: "image", src: "6.jpeg" },
-    { type: "image", src: "7.jpeg" },
-    { type: "image", src: "8.jpeg" },
-    { type: "image", src: "9.jpeg" },
-    { type: "image", src: "10.jpeg" },
-    { type: "image", src: "11.jpeg" },
-    { type: "image", src: "12.jpeg" },
+  window.servicesGallery = [
+    { type: "image", src: "1.png" },
+    { type: "image", src: "2.png" },
+    { type: "image", src: "3.png" },
+    { type: "image", src: "4.png" },
+    { type: "image", src: "5.png" },
     { type: "video", src: "stitch1.mp4" },
     { type: "video", src: "stitch2.mp4" }
   ];
@@ -128,7 +99,5 @@ const banners = [
     "1.mp4",
     "2.mp4",
     "3.mp4",
-    "4.mp4",
-    "5.mp4",
-    "6.mp4"
+    "4.mp4"
   ];
